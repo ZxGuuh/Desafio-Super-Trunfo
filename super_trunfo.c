@@ -48,4 +48,15 @@ int main() {
     fortaleza.area = 314.93;
     fortaleza.pib = 67.03;
     fortaleza.numeroPontosTuristicos = 10;
+
+    int opcao;
+
+    // Menu de seleção
+    printf("===== SUPER TRUNFO - CIDADES =====\n");
+    printf("Escolha uma carta para visualizar:\n");
+    printf("1 - Brasilia\n");
+    printf("2 - Fortaleza\n");
+    printf("Digite sua opção (1 ou 2): ");
+    scanf("%d", &opcao);
+    
 }
