@@ -58,5 +58,18 @@ int main() {
     printf("2 - Fortaleza\n");
     printf("Digite sua opção (1 ou 2): ");
     scanf("%d", &opcao);
-    
+
+    // Exibição conforme a escolha
+    if (opcao == 1) {
+        exibirCarta(brasilia);
+    } else if (opcao == 2) {
+        exibirCarta(Fortaleza);
+    } else {
+        printf("\nOpção inválida. Por favor, execute novamente. \n");
+    }
+
+    // Pausar para visualizar no Windows
+    system("pause");
+
+    return 0;
 }
