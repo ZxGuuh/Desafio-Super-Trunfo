@@ -26,3 +26,17 @@ void exibirCarta(struct super_trunfo carta) {
     printf("Número de Pontos Turísticos: %d\n", carta.numeroPontosTuristicos);
     printf("=========================\n\n");
 }
+
+int main() {
+    // Criando as cartas
+    struct CartaSuperTrunfo brasilia, fortaleza;
+
+    // Dados de Brasília
+    strcpy(brasilia.estado, "DF");
+    strcpy(brasilia.codigo, "A01");
+    strcpy(brasilia.nomeCidade, "Brasília");
+    brasilia.populacao = 2817381;
+    brasilia.area = 5760.78;
+    brasilia.pib = 286.94;
+    brasilia.numeroPontosTuristicos = 12;
+}
