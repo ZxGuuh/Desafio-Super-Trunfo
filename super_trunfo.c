@@ -39,4 +39,13 @@ int main() {
     brasilia.area = 5760.78;
     brasilia.pib = 286.94;
     brasilia.numeroPontosTuristicos = 12;
+
+    // Dados de Fortaleza
+    strcpy(fortaleza.estado, "CE");
+    strcpy(fortaleza.codigo, "A02");
+    strcpy(fortaleza.nomeCidade, "Fortaleza");
+    fortaleza.populacao = 2465800;
+    fortaleza.area = 314.93;
+    fortaleza.pib = 67.03;
+    fortaleza.numeroPontosTuristicos = 10;
 }
